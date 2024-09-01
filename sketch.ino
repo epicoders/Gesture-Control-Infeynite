@@ -6,7 +6,7 @@
 MPU6050 mpu;
 
 // Define the SoftwareSerial pins for HC-05 Bluetooth
-SoftwareSerial BTSerial(10, 11);  // RX, TX
+SoftwareSerial BTSerial(2, 3);  // RX, TX
 
 void setup() {
   Wire.begin();
