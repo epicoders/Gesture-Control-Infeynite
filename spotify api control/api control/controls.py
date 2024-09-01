@@ -1,6 +1,6 @@
 import requests
 
-ACCESS_TOKEN = 'your_access_token'  # Replace with your actual access token
+ACCESS_TOKEN = 'your_access_token'  # Replace with your access token
 BASE_URL = 'https://api.spotify.com/v1/me/player/'
 
 def make_request(endpoint, method='GET', data=None):

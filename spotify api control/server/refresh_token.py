@@ -3,7 +3,7 @@ import base64
 
 CLIENT_ID = 'ebe367b1678e48bb963a2687b9217128'
 CLIENT_SECRET = 'aa5383ade714409b83c94776f5134bf2'
-REFRESH_TOKEN = 'your_refresh_token'  # Replace with your actual refresh token
+REFRESH_TOKEN = 'your_refresh_token'  # Replace with your refresh token
 
 def refresh_access_token():
     token_url = 'https://accounts.spotify.com/api/token'
@@ -24,6 +24,3 @@ def refresh_access_token():
         print(f"New Access Token: {new_access_token}")
     else:
         print(f"Error {response.status_code}: {response.text}")
-
-# Example usage
-refresh_access_token()

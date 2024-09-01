@@ -1,10 +1,10 @@
 import requests
 import base64
 
-CLIENT_ID = 'ebe367b1678e48bb963a2687b9217128'  # Replace with your actual Client ID
-CLIENT_SECRET = 'aa5383ade714409b83c94776f5134bf2'  # Replace with your actual Client Secret
+CLIENT_ID = 'ebe367b1678e48bb963a2687b9217128'  # Replace with your Client ID
+CLIENT_SECRET = 'aa5383ade714409b83c94776f5134bf2'  # Replace with your Client Secret
 REDIRECT_URI = 'http://localhost:9000/callback'  # Ensure this matches your registered Redirect URI
-AUTHORIZATION_CODE = 'your_authorization_code'  # Replace with your actual authorization code
+AUTHORIZATION_CODE = 'your_authorization_code'  # Replace with your authorization code
 
 def get_access_token():
     token_url = 'https://accounts.spotify.com/api/token'
@@ -28,6 +28,3 @@ def get_access_token():
         print(f"Refresh Token: {refresh_token}")
     else:
         print(f"Error {response.status_code}: {response.text}")
-
-# Example usage
-get_access_token()

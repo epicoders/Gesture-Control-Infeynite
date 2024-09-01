@@ -2,11 +2,11 @@ import serial
 import time
 import requests
 
-ACCESS_TOKEN = 'your_access_token'  # Replace with your actual access token
+ACCESS_TOKEN = 'your_access_token'  # Replace with access token
 BASE_URL = 'https://api.spotify.com/v1/me/player/'
 
 # Initialize serial connection
-# Replace 'COM_PORT' with the port your Arduino is connected to
+# Replace 'COM_PORT' with the port Arduino is connected to
 ser = serial.Serial('COM_PORT', 9600)
 
 # Initialize volume level (in percentage)
@@ -30,7 +30,6 @@ def make_request(endpoint, method='GET', data=None):
         print(f"Request Exception: {e}")
 
 def set_volume(volume):
-    # Ensure volume is between 0 and 100
     volume = max(0, min(100, volume))
     make_request(f'volume?volume_percent={volume}', method='PUT')
     print(f"Volume set to {volume}%")
