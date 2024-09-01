@@ -7,3 +7,4 @@ For our 'Infeynite' hackathon idea we created a gesture controlled device for co
 4. Breadboard/Jumper wires/Battery
 ### Software stack:
 C++, Python, Spotify API
+Note: Bluetooth module connection is still a WIP.
