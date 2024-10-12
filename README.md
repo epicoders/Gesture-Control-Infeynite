@@ -9,3 +9,9 @@ For our 'Infeynite' hackathon idea we created a gesture controlled device for co
 #### C++, Python, Spotify API
 
 Note: Bluetooth module connection is still a WIP.
+
+Team Members:
+- Rhea
+- Ria
+- Reanna
+- Ritu
