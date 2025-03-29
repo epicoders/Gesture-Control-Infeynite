@@ -13,5 +13,5 @@ Note: Bluetooth module connection is still a WIP.
 ### Team Members:
 - Rhea
 - Ria
-- Reanna
+- Reanna 
 - Ritu 
