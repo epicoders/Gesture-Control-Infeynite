@@ -14,4 +14,4 @@ Note: Bluetooth module connection is still a WIP.
 - Rhea
 - Ria
 - Reanna
-- Ritu
+- Ritu 
